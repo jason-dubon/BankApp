@@ -19,8 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.backgroundColor = .systemBackground
         //window?.rootViewController = LoginViewController()
-        //window?.rootViewController = OnboardingContainerViewController()
-        window?.rootViewController = OnboardingViewController()
+        window?.rootViewController = OnboardingContainerViewController()
+        //window?.rootViewController = OnboardingViewController(heroImageName: "car", titleText: "This will change your life!")
         return true
     }
 
