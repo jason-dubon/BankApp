@@ -27,20 +27,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.backgroundColor = .systemBackground
-        window?.rootViewController = mainViewController
-        mainViewController.selectedIndex = 2
+        
+       // mainViewController.selectedIndex = 2 , allows you to select the index of whixh screen will pop up
         
         loginViewController.delegate = self
-        
-        //window?.rootViewController = onboardingContainerViewController
-        
         onboardingContainerViewController.delegate = self
+
+        let vc = mainViewController
+        vc.setStatusBar()
         
-        //window?.rootViewController = dummyViewController
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().backgroundColor = appColor
         
-        dummyViewController.logoutDelegate = self
+        window?.rootViewController = vc 
         
-        //window?.rootViewController = OnboardingViewController(heroImageName: "car", titleText: "This will change your life!")
+        
         return true
     }
 
