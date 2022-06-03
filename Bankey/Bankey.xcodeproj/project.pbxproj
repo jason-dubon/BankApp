@@ -28,6 +28,7 @@
 		323A9909284179870084F703 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A9908284179870084F703 /* LocalState.swift */; };
 		32C06D262847DEB700936657 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C06D252847DEB700936657 /* NSNotificationName.swift */; };
 		32C06D282847E08900936657 /* UITextFieldSecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C06D272847E08900936657 /* UITextFieldSecureToggle.swift */; };
+		32C06D32284A5DB800936657 /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C06D31284A5DB800936657 /* ShakeyBellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		323A9908284179870084F703 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		32C06D252847DEB700936657 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		32C06D272847E08900936657 /* UITextFieldSecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldSecureToggle.swift; sourceTree = "<group>"; };
+		32C06D31284A5DB800936657 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		323A98E728400E9A0084F703 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				32C06D30284A5D9100936657 /* Components */,
 				323A98E828400E9A0084F703 /* AppDelegate.swift */,
 				322780772843A2B3000AA3F9 /* MainViewController.swift */,
 				323A98FD284014190084F703 /* Login */,
@@ -193,6 +196,14 @@
 				32C06D272847E08900936657 /* UITextFieldSecureToggle.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		32C06D30284A5D9100936657 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				32C06D31284A5DB800936657 /* ShakeyBellView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +326,7 @@
 				32C06D262847DEB700936657 /* NSNotificationName.swift in Sources */,
 				32C06D282847E08900936657 /* UITextFieldSecureToggle.swift in Sources */,
 				323A98ED28400E9A0084F703 /* LoginViewController.swift in Sources */,
+				32C06D32284A5DB800936657 /* ShakeyBellView.swift in Sources */,
 				32270FD728451EC6004A077B /* AccountSummaryCell.swift in Sources */,
 				323A990428410F560084F703 /* OnboardingViewController.swift in Sources */,
 				322780782843A2B3000AA3F9 /* MainViewController.swift in Sources */,
