@@ -32,6 +32,8 @@
 		323A990428410F560084F703 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A990328410F560084F703 /* OnboardingViewController.swift */; };
 		323A99062841705C0084F703 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A99052841705C0084F703 /* DummyViewController.swift */; };
 		323A9909284179870084F703 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A9908284179870084F703 /* LocalState.swift */; };
+		32A393892852353F00C653BA /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A393882852353F00C653BA /* ProfileManager.swift */; };
+		32A3938B285375C600C653BA /* AccountSummaryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A3938A285375C600C653BA /* AccountSummaryViewControllerTests.swift */; };
 		32C06D262847DEB700936657 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C06D252847DEB700936657 /* NSNotificationName.swift */; };
 		32C06D282847E08900936657 /* UITextFieldSecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C06D272847E08900936657 /* UITextFieldSecureToggle.swift */; };
 		32C06D32284A5DB800936657 /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C06D31284A5DB800936657 /* ShakeyBellView.swift */; };
@@ -77,6 +79,8 @@
 		323A990328410F560084F703 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		323A99052841705C0084F703 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		323A9908284179870084F703 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
+		32A393882852353F00C653BA /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		32A3938A285375C600C653BA /* AccountSummaryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewControllerTests.swift; sourceTree = "<group>"; };
 		32C06D252847DEB700936657 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		32C06D272847E08900936657 /* UITextFieldSecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldSecureToggle.swift; sourceTree = "<group>"; };
 		32C06D31284A5DB800936657 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 			children = (
 				320FE1EE284FA725007E2712 /* ProfileTests.swift */,
 				320FE1F0284FA865007E2712 /* AccountTests.swift */,
+				32A3938A285375C600C653BA /* AccountSummaryViewControllerTests.swift */,
 			);
 			path = AccountSummary;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 		32270FCD2844D864004A077B /* AccountSummary */ = {
 			isa = PBXGroup;
 			children = (
+				32A393872852352600C653BA /* Networking */,
 				320FE1EB284F894D007E2712 /* AccountSummaryViewController+Networking.swift */,
 				32270FCE2844D88F004A077B /* AccountSummaryViewController.swift */,
 				32270FD428451E83004A077B /* Header */,
@@ -226,6 +232,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		32A393872852352600C653BA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				32A393882852353F00C653BA /* ProfileManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		32C06D30284A5D9100936657 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A3938B285375C600C653BA /* AccountSummaryViewControllerTests.swift in Sources */,
 				320FE1EF284FA725007E2712 /* ProfileTests.swift in Sources */,
 				320FE1F1284FA865007E2712 /* AccountTests.swift in Sources */,
 				32270FE3284658D8004A077B /* BankeyUnitTests.swift in Sources */,
@@ -349,6 +364,7 @@
 				323A98FF284014490084F703 /* LoginView.swift in Sources */,
 				320FE1FE28521BC6007E2712 /* SkeletonCell.swift in Sources */,
 				323A9909284179870084F703 /* LocalState.swift in Sources */,
+				32A393892852353F00C653BA /* ProfileManager.swift in Sources */,
 				323A99062841705C0084F703 /* DummyViewController.swift in Sources */,
 				32270FD928464EFE004A077B /* DecimalUtil.swift in Sources */,
 				32270FD128450312004A077B /* AccountSummaryHeaderView.swift in Sources */,
